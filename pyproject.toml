@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vitalik"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Usynin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sounddevice = "^0.5.2"
+gpt4all = "^2.8.2"
+transformers = "^4.56.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
